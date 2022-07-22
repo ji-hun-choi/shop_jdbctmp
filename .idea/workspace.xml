@@ -4,50 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d2968bf-2939-457b-80a6-b4289721b2b7" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d0249470-e464-444f-98f9-87475269fd3a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d0249470-e464-444f-98f9-87475269fd3a/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d0249470-e464-444f-98f9-87475269fd3a/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d0249470-e464-444f-98f9-87475269fd3a/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d0249470-e464-444f-98f9-87475269fd3a/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d0249470-e464-444f-98f9-87475269fd3a/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shop_jdbctmp/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shop_jdbctmp/ShopJdbctmpApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shop_jdbctmp/member/MemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shop_jdbctmp/member/MemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shop_jdbctmp/member/MemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/shop_jdbctmp/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/joinForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/loginForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/shop_jdbctmp/ShopJdbctmpApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/shop_jdbctmp/ServletInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/shop_jdbctmp/ShopJdbctmpApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/shop_jdbctmp/member/MemController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/shop_jdbctmp/member/MemDao$MemberMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/shop_jdbctmp/member/MemDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/shop_jdbctmp/member/MemService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/shop_jdbctmp/member/Member.class" afterDir="false" />
+    <list default="true" id="9d2968bf-2939-457b-80a6-b4289721b2b7" name="변경" comment="Day 2">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d0249470-e464-444f-98f9-87475269fd3a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d0249470-e464-444f-98f9-87475269fd3a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shop_jdbctmp/member/MemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shop_jdbctmp/member/MemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shop_jdbctmp/member/MemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shop_jdbctmp/member/MemDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shop_jdbctmp/member/MemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shop_jdbctmp/member/MemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/joinForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/member/joinForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shop_jdbctmp/member/MemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shop_jdbctmp/member/MemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/shop_jdbctmp/member/MemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/shop_jdbctmp/member/MemService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +25,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Day2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -88,12 +61,14 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/chlwl/OneDrive/project/shop_jdbctmp",
+    "last_opened_file_path": "C:/Users/chlwl/OneDrive/project/shop_jdbctmp/src/main/webapp/WEB-INF/views/board",
     "mysql-explain.agentPath": "C:\\Users\\chlwl\\AppData\\Roaming\\JetBrains\\IntelliJIdea2022.1\\plugins\\mysql-explain-intellij-plugin\\lib\\mysql-explain-agent-1.0-jar-with-dependencies.jar",
     "mysql-explain.existMysqlJar": "true",
     "node.js.detected.package.eslint": "true",
@@ -103,7 +78,8 @@
     "project.structure.last.edited": "SDK",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.3862069",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "9ae386033f180cf41ff4a1d9961b5c53"
   },
   "keyToStringList": {
@@ -114,11 +90,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chlwl\OneDrive\project\shop_jdbctmp\src\main\webapp\WEB-INF\views\board" />
       <recent name="C:\Users\chlwl\OneDrive\project\shop_jdbctmp\src\main\resources\static" />
       <recent name="C:\Users\chlwl\OneDrive\project\shop_jdbctmp\src\main\webapp" />
       <recent name="C:\Users\chlwl\OneDrive\project\shop_jdbctmp\src\main\webapp\WEB-INF\views\member" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chlwl\OneDrive\project\shop_jdbctmp\src\main\java\com\example\shop_jdbctmp\member" />
       <recent name="C:\Users\chlwl\OneDrive\project\shop_jdbctmp\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
@@ -145,12 +123,33 @@
       <option name="presentableId" value="Default" />
       <updated>1658287981276</updated>
       <workItem from="1658287982640" duration="640000" />
-      <workItem from="1658293356521" duration="11226000" />
+      <workItem from="1658293356521" duration="12441000" />
+      <workItem from="1658360682785" duration="19515000" />
+      <workItem from="1658385435651" duration="6969000" />
     </task>
+    <task id="LOCAL-00001" summary="Day 2">
+      <created>1658305939953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658305939953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -162,5 +161,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2" />
   </component>
 </project>
