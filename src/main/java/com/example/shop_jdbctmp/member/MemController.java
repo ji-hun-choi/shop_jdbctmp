@@ -6,10 +6,12 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Map;
 
 @Controller
@@ -26,13 +28,14 @@ public class MemController {
     //로그인
 
     @PostMapping("/login")
-    public String login(Map map, String id, String pwd, HttpSession session){
+    public String login(Map map, String id, String pwd, HttpSession session,Model model){
         Member m = service.getMember(id);
         if(m!=null && pwd.equals(m.getPwd())){
             session.setAttribute("id", id);
             session.setAttribute("type", m.isMem_type());
         }
         map.put("m", m);
+        model.addAttribute("path", "/board/");
         return "redirect:/";
     }
 
@@ -86,4 +89,33 @@ public class MemController {
         return "member/list";
     }
 
+    @GetMapping("/idcheck")
+    public void idcheck(String id, Model model){
+        Member m = service.getMember(id);
+        boolean flag = false;
+        if(m==null){
+            flag = true;
+            model.addAttribute("id", id);
+        }
+        model.addAttribute("flag", flag);
+    }
+
+    @ResponseBody
+    @GetMapping("/test")
+    public String test(){
+        return "hello response body!!";
+    }
+    @ResponseBody
+    @GetMapping("/idcheck2")
+    public Map idcheck2(String id){
+        Map map = new HashMap();
+        Member m = service.getMember(id);
+        boolean flag = false;
+        if(m==null){
+            flag = true;
+            map.put("id", id);
+        }
+        map.put("flag", flag);
+        return map;
+    }
 }

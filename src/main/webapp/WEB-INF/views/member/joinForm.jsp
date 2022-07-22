@@ -10,16 +10,16 @@
 <head>
     <title>Title</title>
     <script>
-        const b = () => {
+        const idcheck = () => {
             const xhttp = new XMLHttpRequest();
             xhttp.onload = function () {
                 if (xhttp.status==200){
                     let resVal = xhttp.responseText;
                     let obj = JSON.parse(resVal);
                     let msg = "사용 불가능한 아이디";
-                    alert(obj.flag);
+                    // alert(obj.flag);
                     if (obj.flag){
-                        msg = "사용 가능한 아이디"
+                        msg = "사용 가능한 아이디";
                     } else {
                         document.f1.id.value = "";
                     }
@@ -30,13 +30,9 @@
                     alert(xhttp.status);
                 }
             }
-            xhttp.open("POST", "${pageContext.request.contextPath}/member/IdCheck", true);
-            xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded;charset=utf-8');
-
             let id = document.f1.id.value;
-            let param = "id="+id;
-
-            xhttp.send(param);
+            xhttp.open("GET", "/member/idcheck2?id="+id, true);
+            xhttp.send();
         }
     </script>
 </head>
@@ -49,7 +45,7 @@
         <tr><th>id</th>
             <td>
                 <input type="text" name="id">
-                <input type="button" value="중복체크" onclick="b()">
+                <input type="button" value="중복체크" onclick="idcheck()">
                 <span id="res"></span>
             </td>
         </tr>

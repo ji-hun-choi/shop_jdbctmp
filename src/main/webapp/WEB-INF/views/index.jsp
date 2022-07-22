@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>Title</title>
+
 </head>
 <body>
 <h3>shop</h3>
@@ -30,5 +31,7 @@
     <a href="/member/Logout">로그아웃</a>
     <a href=/member/out">탈퇴</a><br/>
 </c:if>
+
+<jsp:include page="/board/"></jsp:include>
 </body>
 </html>

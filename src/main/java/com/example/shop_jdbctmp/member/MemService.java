@@ -8,7 +8,7 @@ import java.util.ArrayList;
 @Service
 public class MemService {
     @Autowired
-    private MemDao dao;
+    private MemberDao dao;
 
     public void joinMember(Member m) {
         dao.insert(m);
